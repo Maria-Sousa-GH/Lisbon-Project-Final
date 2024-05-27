@@ -8,9 +8,19 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/bg.png");
+    url("../images/lisbon.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -66,7 +76,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
-  text-align: center;
 }
 
 footer h3 {
@@ -98,7 +107,7 @@ footer a {
   opacity: 0.7;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
