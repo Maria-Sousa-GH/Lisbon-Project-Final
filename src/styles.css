@@ -107,6 +107,10 @@ footer a {
   opacity: 0.7;
 }
 
+.project-links {
+  text-align: center;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
